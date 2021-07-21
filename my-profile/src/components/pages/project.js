@@ -1,6 +1,7 @@
 import React from 'react';
+import projects from '../../projects';
 
-export default function Project({ projects }) {
+export default function Project() {
   return (
     <div id="header3">
       <h1>Work</h1>

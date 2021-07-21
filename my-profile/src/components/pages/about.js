@@ -1,11 +1,12 @@
 import React from 'react';
+import Image from "../../images/headshot.JPG"
 
 export default function About() {
 
     return (
         <div>
             <h1 id="header1">About Me</h1>
-
+            <img id="headshot" src={Image} alt="Headshot of a lady"></img>
             <div id="about-me">
                 <p>
                     Hi I am a current UWA Coding Bootcamp student and amd enjoying
