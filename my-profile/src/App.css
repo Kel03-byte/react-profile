@@ -5,13 +5,17 @@ body {
 }
 
 ul {
-  display: inline-flex;
+  display: flex;
   list-style: none;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
 #nav-text {
   text-decoration: none;
+  color: white;
+}
+
+#nav-text:hover {
   color:rgb(218, 91, 196);
 }
 
@@ -39,4 +43,26 @@ ul {
 #card-image {
   width: 100px;
   height: 100px;
+}
+
+#footer {
+  display: flex;
+  justify-content: center;
+}
+
+#icon1 {
+  color: rgb(13, 114, 109);
+}
+
+#icon2 {
+  padding-left: 30px;
+  color: rgb(13, 114, 109);
+}
+
+#icon1:hover {
+  color:rgb(218, 91, 196);
+}
+
+#icon2:hover {
+  color:rgb(218, 91, 196);
 }

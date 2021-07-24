@@ -4,11 +4,13 @@ export default function Footer() {
 
     return (
         <div>
-            <p><a id="nav-text" href="mailto:littlekel03@gmail.com">Email</a></p>
-            <p><a id="nav-text" href="https://github.com/Kel03-byte">GitHub</a></p>
-            <p><a id="nav-text" href="https://www.linkedin.com/in/kellie-ryan-03">LinkedIn</a></p>
+            <div id="footer">
+                <a id="icon1" href="https://github.com/Kel03-byte"><i class="fab fa-github fa-3x"></i></a>
+                <a id="icon2" href="https://www.linkedin.com/in/kellie-ryan-03"><i class="fab fa-linkedin fa-3x"></i></a>
+            </div>
             <h4>
                 Made by Kellie "adopt, don't shop" @2021
-            </h4></div>
+            </h4>
+        </div>
     )
 }
