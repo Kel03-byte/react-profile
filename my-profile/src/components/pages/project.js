@@ -3,7 +3,7 @@ import projects from '../../projects';
 
 export default function Project() {
   return (
-    <div id="header3">
+    <div id="header2">
       <h1>Work</h1>
       <ul id="project">
         {projects.map((project) => (

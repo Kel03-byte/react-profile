@@ -5,14 +5,27 @@ export default function Resume() {
 
     return (
         <div>
-            <h1 id="header2">Resume</h1>
+            <h1 id="header3">Resume</h1>
 
-            <div><p>Download my <a id="nav-text" href={resumePdf}>Resume</a>!</p></div>
+            <div><p>Veiw and download my <a id="link-text" href={resumePdf}>Resume</a>!</p></div>
 
-            <div>
-                <p>
-                    Node.js, Express, MySQL, Javascript
-                </p>
+            <div id ="tech">
+                <p id="tech-title">Front-End</p>
+                <ul >
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>Javascript</li>
+                    <li>JQuery</li>
+                    <li>Bootstrap</li>
+                </ul>
+
+                <p id="tech-title">Back-End</p>
+                <ul>
+                    <li>Node</li>
+                    <li>Express</li>
+                    <li>MySQL, Sequalize</li>
+                    <li>MongoDB, Mongoose</li>
+                </ul>
             </div>
         </div>
     );

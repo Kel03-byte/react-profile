@@ -4,7 +4,7 @@ body {
   color: white;
 }
 
-ul {
+#nav-list {
   display: flex;
   list-style: none;
   justify-content: space-around;
@@ -16,12 +16,14 @@ ul {
 }
 
 #nav-text:hover {
+  font-weight: bold;
   color:rgb(218, 91, 196);
 }
 
 #about {
    display: flex;
   justify-content: center;
+  margin: 10px;
 }
 
 #headshot {
@@ -31,6 +33,30 @@ ul {
 
 #about-text {
   max-width: 600px;
+}
+
+#link-text {
+  text-decoration: none;
+  color: aqua;
+}
+
+#link-text:hover {
+  font-weight: bold;
+  color:rgb(218, 91, 196);
+}
+
+#tech {
+  margin-left: 30%;
+  text-align: left;
+}
+
+ul {
+  list-style: circle;
+}
+
+#tech-title {
+  font-size: 20px;
+  font-weight: bold;
 }
 
 #project {
