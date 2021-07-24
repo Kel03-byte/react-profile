@@ -1,5 +1,4 @@
 import React from 'react';
-import Image from "../images/headshot.JPG"
 
 export default function Header() {
     return (

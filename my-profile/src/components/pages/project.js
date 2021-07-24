@@ -13,7 +13,7 @@ export default function Project() {
               <p>{project.summary}</p>
               <p>{project.tech}</p>
               <p ><a id="nav-text" href={`${project.gitHub}`}>GitHub</a></p>
-              <p ><a id="nav-text" href={`${project.website}`}>Website</a></p>
+              <p ><a id="nav-text" href={`${project.website}`}>{project.title}</a></p>
               <img id="card-image" src={project.image} alt={project.alt}></img></div>
           </li>
 

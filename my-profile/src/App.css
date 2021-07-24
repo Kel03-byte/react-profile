@@ -1,4 +1,4 @@
-.App {
+body {
   text-align: center;
   background-image: url("./images/background.jpg");
   color: white;
@@ -16,8 +16,8 @@ ul {
 }
 
 #headshot {
-  width: 125px;
-  height: 125px;
+  width: 300px;
+  height: 400px;
 }
 
 #project {
