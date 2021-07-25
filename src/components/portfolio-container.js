@@ -1,3 +1,5 @@
+// Portfolio Component that changes the components that are rendered depending what the user clicks on
+
 import React, { useState } from 'react';
 import Navigation from './navigation';
 import Tech from './pages/resume';
@@ -12,7 +14,7 @@ export default function PortfolioContainer() {
     if (currentPage === 'Resume') {
       return <Tech />;
     }
-    if (currentPage === 'Work') {
+    if (currentPage === 'Project') {
       return <Project />;
     }
     if (currentPage === 'Contact') {

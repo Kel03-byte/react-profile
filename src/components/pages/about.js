@@ -1,3 +1,5 @@
+// About Component
+
 import React from 'react';
 import Image from "../../images/headshot.JPG"
 
@@ -16,6 +18,7 @@ export default function About() {
                     opportunity to learn more about the process behind some of my favourite
                     games and tech.
                 </p>
+                <br></br>
                 <p id="about-text">You can contact me by email, on GitHub or Linkedin via the links below!</p>
             </div>
         </div>

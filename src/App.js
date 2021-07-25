@@ -1,3 +1,5 @@
+// The beginning of React building the website
+
 import React from "react";
 import PortfolioContainer from "./components/portfolio-container";
 import './App.css';

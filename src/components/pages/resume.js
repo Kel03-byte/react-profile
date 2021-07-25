@@ -1,3 +1,5 @@
+// Resume Component
+
 import React from 'react';
 import resumePdf from '../../resume/resume.pdf'
 
