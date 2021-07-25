@@ -32,6 +32,8 @@ body {
 }
 
 #about-text {
+  margin: auto;
+  padding: auto;
   max-width: 600px;
 }
 
@@ -46,7 +48,9 @@ body {
 }
 
 #tech {
-  margin-left: 30%;
+  width: 200px;
+  margin: auto;
+  padding: auto;
   text-align: left;
 }
 
@@ -119,17 +123,17 @@ ul {
 }
 
 #icon1 {
-  color: rgb(13, 114, 109);
+  color: aqua;
 }
 
 #icon2 {
   padding-left: 30px;
-  color: rgb(13, 114, 109);
+  color: aqua;
 }
 
 #icon3 {
   padding-left: 30px;
-  color: rgb(13, 114, 109);
+  color: aqua;
 }
 
 #icon1:hover {
@@ -142,4 +146,26 @@ ul {
 
 #icon3:hover {
   color:rgb(218, 91, 196);
+}
+
+#input-text {
+  padding: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-radius: 10px;
+}
+
+#submit-btn {
+  border: none;
+  outline: none;
+  background-color: aqua;
+  cursor: pointer;
+  border-radius: 10px;
+  width: 90px;
+  padding: 6px;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#submit-btn:hover {
+  background-color:rgb(218, 91, 196);
 }
