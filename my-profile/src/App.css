@@ -63,10 +63,15 @@ ul {
   display: inline-flex;
   flex-wrap: wrap;
   justify-content: center;
+  margin: auto;
+  padding: auto;
 }
 
-#card{
-  width: 200px;
+.card{
+  position: relative;
+  width: 250px;
+  height: 250px;
+  list-style: none;
   padding: 20px;
 }
 
@@ -75,13 +80,36 @@ ul {
   font-weight: bold;
 }
 
+.card-text {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+  width: 200px;
+  visibility: hidden;
+  opacity: 0;
+}
+
 #card-image {
-  width: 100px;
-  height: 100px;
+  width: 250px;
+  height: 250px;
+}
+
+.card:hover #card-image {
+  opacity: 30%;
+}
+
+.card:hover .card-text {
+  visibility: visible;
+  opacity: 1;
+}
+
+#card-icon {
+  padding: 20px;
+  color: aqua;
 }
 
 #footer {
-  padding-top: 90px;
+  padding-top: 150px;
   display: flex;
   justify-content: center;
 }
